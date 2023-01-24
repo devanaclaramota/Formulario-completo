@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Cadastre-se </h1>
+        <span>É rapido e facil</span>
+        <hr>
+        </div>
+        
+    
+        <form action="post">
+
+            <div class="form-control">
+                <input type="text" name="name" id="name" placeholder="Nome">
+                <i class="bi bi-check"></i>
+                <span> 
+                    <i class="bi bi-exclamation"></i>Inválido
+                </span>
+            </div>
+            <div class="form-control">
+                <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+                <i class="bi bi-check"></i>
+                <span> 
+                    <i class="bi bi-exclamation"></i>Inválido
+                </span>
+            </div>
+            <div class="form-control">
+                <input type="text" name="email-cel" id="email" placeholder="Email">
+                <i class="bi bi-check"></i>
+                <span> 
+                    <i class="bi bi-exclamation"></i>Inválido
+                </span>
+            </div>
+            <div class="form-control">
+               <input type="password" name="password" id="password" placeholder="Nova senha">
+               <i class="bi bi-check"></i>
+            <span> 
+                <i class="bi bi-exclamation"></i>Inválido
+            </span>
+            </div>
+
+
+
+            <div class="form-control">
+                <p>Data de nascimento</p>
+            <div class="data">
+                <select name="date" id="date">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select name="month" id="month">
+                    <option value="jan">Janeiro</option>
+                    <option value="fev">Fevereiro</option>
+                    <option value="marc">Março</option>
+                    <option value="abr">Abril</option>
+                    <option value="maio">Maio</option>
+                    <option value="jun">Junho</option>
+                    <option value="jul">Julho</option>
+                    <option value="agost">Agosto</option>
+                    <option value="set">Setembro</option>
+                    <option value="out">Outubro</option>
+                    <option value="nov">Novembro</option>
+                    <option value="dez">Dezembro</option>
+                </select>
+                <select name="year" id="">
+                    <option value="23">2023</option>
+                    <option value="22">2022</option>
+                    <option value="21">2021</option>
+                </select>
+            </div>
+            </div>
+
+          <div class="form-control">
+            <p>Gênero</p>
+            <div class="radio">
+                <div class="gen">
+                    <input  type="radio" name="gen" id="fem">  Feminino
+                </div>
+                <div class="gen">
+                     <input  type="radio" name="gen" id="masc">  Masculino
+                </div>
+                <div class="gen">
+                    <input type="radio" name="gen" id="perso">  Personalizado
+                </div>
+               
+                
+            </div>
+            <div class="personalizado">
+                    <select name="fem" id="">
+                        <option value="fem">Feminino. "Deseje a ela
+                            um feliz aniversário!"</option>
+                        <option value="masc">Masculino. "Deseje a ela
+                            um feliz aniversário!"</option>
+                        <option value="neutro"> Neutro. "Deseje a ele(a)
+                            um feliz aniversário!"</option>
+                    </select>
+                    <span>Seu pronome fica visível para todos.</span>
+                    <input type="text" name="" id="" placeholder="Gênero(opcional)">
+                </div>
+          </div>
+            
+             <p class="footer">Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Privacidade e Política de Cookies. Você poderá receber notificações por SMS e cancelar isso quando quiser.</p>
+        <button class="submit" type="submit">Cadastre-se</button>
+
+
+
+        </form>
+        
+       
+    </main>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
